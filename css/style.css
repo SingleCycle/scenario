@@ -1,0 +1,82 @@
+*{margin:0;padding:0;list-style: none;}
+html{font-size: 12px;font-family: 'Microsoft Yahei'}
+body{background: #eee;}
+a{color: inherit;text-decoration: none;}
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+}
+.right-tips{
+  position: relative;
+  float: right;
+  margin-right:25px;
+}
+.right-tips:after, .right-tips:before {
+  border: 6px solid transparent;
+  border-left: 6px solid #F6ECDC;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  right: -20px;
+  content: ' '
+}
+img{border:none;}
+.right-tips:before {
+  border-left-color: #8B4500;
+  right: -21px;
+}
+.clear{clear:both;}
+.fl{float: left;}
+.fr{float: right;}
+/*index.html*/
+.scenario-ind-nav{width:100%;background:#eee;}
+.scenario-ind-nav-middle{width:950px;overflow: hidden;margin:0 auto;}
+.ind-nav-left{float: left;}
+.ind-nav-right{float: right;}
+.ind-nav-left>li,.ind-nav-right>li{float: left;padding:8px;position: relative;}
+.ind-nav-left>li a,.ind-nav-right>li a{display: inline-block;margin-right: 16px;}
+.ind-nav-left>li a:hover,.ind-nav-right>li a:hover{color: #BF0000;text-decoration: underline;}
+.ind-nav-search{background: #BF0000;}
+.indnav-search-middle{width: 950px;margin:0 auto;padding:20px 0;}
+.indnav-search-input{float: right;}
+.indnav-search-input input[type='text']{width:400px;font-family: 'Microsoft Yahei';display:inline-block;padding:8px 0 8px 8px;color: #666;border:1px solid #eee;border-radius: 5px}
+.indnav-search-input input[type='button']{padding:10px 20px;font-family: 'Microsoft Yahei';border-radius:5px;background:#EAA200;border:0;color: #fff; cursor:pointer;}
+.indnav-search-input input[type='button']:hover{opacity: 0.8;}
+.ind-nav-list{width:100%;background: #5A0000;color: #fff;}
+.ind-navli-ul{width: 950px;margin:0 auto;height:32px;}
+.ind-navli-ul .ind-nav-left li a:hover{color: #fff;}
+.ind-navLf-tip{position: absolute;top:15px;right:25px;}
+.ind-nav-left li.indnav-lf-classify{padding:8px 25px;background:#990000;display: inline-block; }
+.classify-list{position:absolute;top:32px;left:0;width:138px;z-index:2;color:#575757;border-radius: 0 0 5px 5px;display: none;}
+.classify-list > li a{padding:10px 0 10px 25px;background:#F6ECDC;border-bottom: 1px solid #fff;box-shadow: 0px 3px 3px #8B8682;display: inline-block;width: 113px;}
+.ind-navli-ul .ind-nav-left li ul.classify-list > li a:hover{color:#990000;}
+.classify-list > li.borRad{border-radius:0 0 5px 5px;}
+/*.right-tips{display: inline-block;float:right;font-size:16px;font-weight: bold;color:#8B4500;}*/
+.ind-banner{width:950px;margin-top:20px auto;overflow: hidden;border-bottom: 1px dashed #ddd;padding-bottom: 20px;}
+.ind-banner-left{width:258px;float:left;text-align: center;background: #fff;border:1px solid #ddd;padding:10px 10px 3px 10px;border-radius: 5px;}
+.ind-banner-left a{width:100%;text-align: center;height:50px;font-size: 24px;font-weight: bold;color:red;display: block;background: #FFFFE0;border-radius: 5px;box-shadow: 0 3px 3px #ddd;margin-bottom: 10px;line-height: 50px;}
+.ind-banner-left a:hover{background: #FFEC8B}
+.ind-banner-left a.zhinan{background:#fff;box-shadow: none;height:117px;margin-bottom:0;}
+.ind-banner-left a.zhinan:hover{background:#fff;box-shadow: none}
+.ind-banner-left a.zhinan img{width:258px;}
+.ind-banner-right{float:right;width:650px;position: relative;height:251px;overflow:hidden;}
+.banner-num{position: absolute;overflow: hidden;bottom:10px;right:0px;z-index:10;}
+.banner-num > li{float:left;width:20px;height: 10px;background: #CDBA96;margin-right:15px;border-radius: 10px;cursor: pointer;}
+.banner-num > li.active{background:#FFFFE0;}
+.baner-img{position: absolute;top:0;}
+.ind-content{width:950px;margin:20px auto;}
+.content-left{width:280px;float:left;}
+.content-lf-title{font-size:14px;height:20px;font-family: 'HEI'}
+.middleline-rt{display: block;border-bottom:1px solid #CDC5BF;width:160px;float:right;margin-top:10px;}
+.middleline-lf{display: block;border-bottom:1px solid #CDC5BF;width:10px;float:left;margin-top:10px;margin-right: 5px;}
+.content-lf-01{margin:0px 0 20px 15px;}
+.content-lf-01 > li{list-style-type:square;padding-top:10px;color:#666;}
+.content-lf-01 > li a:hover{color:#5A0000;text-decoration: none;}
+
+.contLf-num{width:20px;height:20px;text-align: center;line-height: 20px;color:#fff;background:#ddd;border-radius: 5px;display: inline-block;}
+
+
